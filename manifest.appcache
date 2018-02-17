@@ -1,14 +1,20 @@
 CACHE MANIFEST
 # manifest.appcache v1
 CACHE:
-app.js
-connections.html
-connections.js
-explore.html
-explore.js
-graphiql.css
-graphiql.js
 index.html
+connections.html
+explore.html
+assets/app.js
+assets/connections.js
+assets/explore.js
+lib/graphiql.css
+lib/graphiql.js
+lib/es6-promise.auto.min.js
+lib/fetch.min.js
+lib/graphiql.css
+lib/graphiql.js
+lib/react-dom.min.js
+lib/react.min.js
 
 # don't cache these ressources
 NETWORK:

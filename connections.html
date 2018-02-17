@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+        <head>
+                <title>GraphQL Explorer - Connections</title>
+                <style>
+                        html,body {
+                                padding: 0;
+                                margin: 0;
+                                height: 100%;
+                                width: 100%;
+                                font-family: monospace;
+                        }
+                        #app {
+                                margin: 20px auto;
+                                width: 776px;
+                                max-width: 99%;
+                        }
+                        #connections li span.text {
+                                padding-right: 10px;
+                                cursor: pointer;
+                        }
+                        #connections li span.delete {
+                                margin: 0;
+                                border: 1px solid #000;
+                                border-radius: 3px;
+                                padding: 5px;
+                                cursor: pointer;
+                                font-size: 12px;
+                        }
+                </style>
+        </head>
+        <body>
+                <div id="app">
+                        <h2>New Connection</h2>
+                        <div id="newconnection">
+                                <input
+                                        id="apihost"
+                                        type="text"
+                                        placeholder="https://localhost/graphql" />
+                                <button id="saveconnection">Save Connection</button>
+                                <button id="connect">Quick Connect</button>
+                        </div>
+                        <h2>Saved Connections</h2>
+                        <ul id="connections"></ul>
+                </div>
+                <script src="./connections.js"></script>
+        </body>
+</html>

@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# manifest.appcache v1
+CACHE:
+app.js
+connections.html
+connections.js
+explore.html
+explore.js
+graphiql.css
+graphiql.js
+index.html
+
+# don't cache these ressources
+NETWORK:
+
+# fallback if content is not available (in cache) and user is offline
+FALLBACK:
+/ offlinefallback.html

@@ -20,9 +20,22 @@
         <body>
                 <div id="app">
                         <h1>GraphQL Explorer</h1>
-                        <ul>
-                                <li><a href="connections.html">Manage Connections</a></li>
-                        </ul>
+                        <section>
+                                <h2>About</h2>
+                                <p>An easy way to explore your GraphQL API, based on the awesome
+                                <a href="https://github.com/graphql/graphiql">GraphiQL</a>.</p>
+                                <p>It works completely offline (apart from the connection to your GraphQL API,
+                                which should be no problem if you have it on your local machine or your local
+                                network too).</p>
+                                <p>You can store multiple connections in your Browser's <code>localStorage</code>.</p>
+                        </section>
+
+                        <section>
+                                <h2>Manage Your Connections</h2>
+                                <ul>
+                                        <li><a href="connections.html">Manage Connections</a></li>
+                                </ul>
+                        </section>
                 </div>
                 <script src="./app.js"></script>
         </body>
